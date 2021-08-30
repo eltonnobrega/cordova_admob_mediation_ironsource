@@ -1,0 +1,12 @@
+cdvPluginPostBuildExtras.add({
+
+  repositories {
+    mavenCentral()
+    maven {url 'https://android-sdk.is.com/'} 
+  }
+
+  dependencies {
+    implementation 'com.ironsource.sdk:mediationsdk:7.1.8'
+    implementation 'com.google.ads.mediation:ironsource:7.1.8.0'
+  }
+});
